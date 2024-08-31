@@ -1,0 +1,94 @@
+the company:
+  who are they?:
+    - AVODAH BC: a marketing company
+    - they got aquired by Instinctiveinsights in 2023
+  what is their business activity?:
+    - AVODAB_BC specialize on Google/Meta(FB,Ig) Advertising, Geofence Margeting, Branding, ...
+    - Instinctiveinsights specializes in marketing but more data focused
+  who are their clients/work with?:
+    - AVODAB_BC: unknown
+    - Instinctiveinsights: 
+      - crossgatesclub:
+        - https://crossgatesclub.com/
+      - epconcommunities:
+        - https://www.epconcommunities.com/
+      - The athlectic clubs:
+        - https://www.lrac.com/
+      - Weymouth clubs:
+        - https://www.weymouthclub.com/
+  where do I play a role in this activity:
+    - analyse data, looking for trends, check marketing performance
+
+knowing what type of company is this, what kind of project should I build then?:
+  - Data-Driven Marketing Campaign Optimization Dashboard with data collected from facebook,instagram,google 
+  - a project about marketing campaign and client reporting
+
+  - what features should I implement in my project?:
+    - the same statistics charts should appear for different campaigns
+
+  - what are the main statistics to implement?(list the statistics to implement):
+    - Campaign Performance Report: Metrics like CTR, CPA, and ROI for different campaigns.
+    - Audience Segmentation Report: Insights based on demographics, geographic location, and behavior.
+    - Conversion Funnel Analysis: Tracking user journey from initial contact to conversion.
+    - Ad Spend vs. Revenue Report: Comparing advertising costs with generated revenue.
+    - Engagement Metrics Report: Analyzing likes, shares, comments, and other engagement metrics.
+    - A/B Test Results: Comparing performance of different campaign variations.
+    - Monthly/Quarterly Performance Summary: Overall performance metrics over a specific period.
+
+
+how will we execute this project:
+  - data:
+    - data collection / data research:
+      - what kind of data am I supposed to get?:
+      - where can I collect those datasets:
+        - Kaggle
+        - Google Public Datasets
+        - Data.gov
+        - UCI Machine Learning Repository
+        - The World Bank Data
+
+    - cleanup:
+    - integration: maybe
+    - exploration:
+    - visualisation: yes
+    - integration: maybe
+    - reduction: on prediction phase, maybe
+    - transformation: maybe
+  
+
+  - what will be the tech-stack for this project:
+    - tableau: for data visualisation
+    - AWS: to import data
+    - hadoop or hadoop-like technologies: haven't decided yet, maybe for warehousing or data
+    - sql:
+      - postgresql local database (before deployment): because Amazon Redshift is based on postgresql
+      - amazon redshift database (after deployment):
+    - pandas(python)+a database : to insert the sql data into an SQL database
+
+  - process:
+      the downloaded data will be examined and cleaned before being inserted into a postgresql database
+      then we can process on warehousing the data
+      once we have done the warehousing, we will create the data for the visualisation
+      after that we can do the visualisation of the data with tableau
+
+program:
+  phase 1:
+    - learning about warehousing
+    - learning about programmatic advertising
+    - learning about marketing for sports
+
+  phase 2:
+
+
+
+datasets propositions:
+  - https://imerit.net/blog/11-best-social-media-datasets-for-machine-learning-all-pbm/
+    
+  
+Digital Marketing Strategies: Knowledge of how to create and implement strategies for various digital channels like social media, email, and search engines.
+Campaign Management: Understanding how to plan, execute, and monitor marketing campaigns.
+Analytics and Reporting: Ability to analyze campaign performance using tools like Google Analytics and generate reports.
+SEO and SEM: Basic knowledge of search engine optimization (SEO) and search engine marketing (SEM).
+Content Marketing: Understanding how to create and distribute valuable content to attract and engage a target audience.
+Social Media Marketing: Familiarity with promoting content and engaging with audiences on platforms like Facebook, Instagram, and LinkedIn.
+
